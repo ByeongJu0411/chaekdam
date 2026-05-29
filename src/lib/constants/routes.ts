@@ -1,0 +1,16 @@
+export const ROUTES = {
+  HOME: '/',
+  LOGIN: '/login',
+  SIGNUP: '/signup',
+  FIND_PASSWORD: '/find-password',
+  BOOKS: '/books',
+  BOOK_DETAIL: (id: string) => `/books/${id}`,
+  BOOK_NEW: '/books/new',
+  BOOK_EDIT: (id: string) => `/books/${id}/edit`,
+  MYPAGE: '/mypage',
+  MYPAGE_SALES: '/mypage/sales',
+  MYPAGE_WISHLIST: '/mypage/wishlist',
+  MYPAGE_PROFILE: '/mypage/profile',
+  CHAT: '/chat',
+  CHAT_ROOM: (roomId: string) => `/chat/${roomId}`,
+} as const

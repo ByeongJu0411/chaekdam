@@ -1,0 +1,444 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1780018908968,
+  "projectRoot": "C:\\Projects\\chaekdam",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "16.2.6",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "19.2.4",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.2.4",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "eslint"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "public",
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 0,
+      "lastAccessed": 1780018908708,
+      "keyFiles": []
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 1,
+      "lastAccessed": 1780018908710,
+      "keyFiles": [
+        "proxy.ts"
+      ]
+    },
+    "src\\app": {
+      "path": "src\\app",
+      "purpose": "Application code",
+      "fileCount": 4,
+      "lastAccessed": 1780018908712,
+      "keyFiles": [
+        "globals.css",
+        "layout.tsx",
+        "not-found.tsx"
+      ]
+    },
+    "src\\components": {
+      "path": "src\\components",
+      "purpose": "UI components",
+      "fileCount": 0,
+      "lastAccessed": 1780018908713,
+      "keyFiles": []
+    },
+    "src\\lib": {
+      "path": "src\\lib",
+      "purpose": "Library code",
+      "fileCount": 3,
+      "lastAccessed": 1780018908714,
+      "keyFiles": [
+        "dal.ts",
+        "db.ts",
+        "session.ts"
+      ]
+    },
+    "src\\models": {
+      "path": "src\\models",
+      "purpose": "Data models",
+      "fileCount": 3,
+      "lastAccessed": 1780018908716,
+      "keyFiles": [
+        "Book.ts",
+        "User.ts",
+        "Wishlist.ts"
+      ]
+    },
+    "src\\types": {
+      "path": "src\\types",
+      "purpose": "Type definitions",
+      "fileCount": 3,
+      "lastAccessed": 1780018908717,
+      "keyFiles": [
+        "api.ts",
+        "book.ts",
+        "user.ts"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "",
+      "accessCount": 8,
+      "lastAccessed": 1780021574666,
+      "type": "directory"
+    },
+    {
+      "path": "server.ts",
+      "accessCount": 4,
+      "lastAccessed": 1780022692408,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\(afterLogin)\\books\\[id]\\_components\\SellerInfo.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1780022967163,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 4,
+      "lastAccessed": 1780026096091,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\constants\\routes.ts",
+      "accessCount": 3,
+      "lastAccessed": 1780021411566,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\(afterLogin)\\chat\\[roomId]\\_components\\ChatRoom.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1780022168209,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\api\\auth\\signup\\route.ts",
+      "accessCount": 2,
+      "lastAccessed": 1780019811156,
+      "type": "file"
+    },
+    {
+      "path": "src\\models\\User.ts",
+      "accessCount": 2,
+      "lastAccessed": 1780019811271,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\db.ts",
+      "accessCount": 2,
+      "lastAccessed": 1780019811535,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\api\\auth\\login\\route.ts",
+      "accessCount": 2,
+      "lastAccessed": 1780019981431,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\session.ts",
+      "accessCount": 2,
+      "lastAccessed": 1780019981729,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\(afterLogin)\\layout.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1780020855099,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\layout\\Header.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1780021437712,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\(afterLogin)\\chat\\_components\\ChatRoomList.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1780021911064,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\(afterLogin)\\chat\\page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1780021914057,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\(afterLogin)\\chat\\[roomId]\\page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1780022135765,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\api\\users.ts",
+      "accessCount": 2,
+      "lastAccessed": 1780023171224,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\api\\books\\route.ts",
+      "accessCount": 2,
+      "lastAccessed": 1780023679391,
+      "type": "file"
+    },
+    {
+      "path": "src\\models\\Book.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780019772691,
+      "type": "file"
+    },
+    {
+      "path": "src\\models\\Wishlist.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780019773013,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\api\\auth\\logout\\route.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780019777078,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\api\\auth\\refresh\\route.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780019777466,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\api\\users\\me\\route.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780019777596,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\api\\books\\[id]\\route.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780019781529,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\dal.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780019781895,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\api\\auth.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780019782015,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\api\\books.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780019785290,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\constants\\bookCategories.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780019785774,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\(beforeLogin)\\layout.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1780019789087,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\(beforeLogin)\\login\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1780019789894,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\(afterLogin)\\books\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1780019790075,
+      "type": "file"
+    },
+    {
+      "path": ".env.example",
+      "accessCount": 1,
+      "lastAccessed": 1780019821818,
+      "type": "file"
+    },
+    {
+      "path": ".env.local",
+      "accessCount": 1,
+      "lastAccessed": 1780019822083,
+      "type": "file"
+    },
+    {
+      "path": "src\\proxy.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780020848541,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\(afterLogin)\\books\\[id]\\_components\\BookInfo.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1780020856164,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\(afterLogin)\\books\\[id]\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1780020861221,
+      "type": "file"
+    },
+    {
+      "path": "src\\types\\user.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780020889678,
+      "type": "file"
+    },
+    {
+      "path": "src\\types\\book.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780020919838,
+      "type": "file"
+    },
+    {
+      "path": "src\\hooks\\useBookDetail.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780020919975,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1780020952042,
+      "type": "file"
+    },
+    {
+      "path": "src\\store\\authStore.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780021105121,
+      "type": "file"
+    },
+    {
+      "path": "src\\hooks\\useAuth.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780021105595,
+      "type": "file"
+    },
+    {
+      "path": "src\\models\\ChatRoom.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780021197218,
+      "type": "file"
+    },
+    {
+      "path": "src\\models\\Message.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780021203434,
+      "type": "file"
+    },
+    {
+      "path": "src\\types\\chat.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780021221355,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\socket.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780021224384,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\api\\chat.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780021246733,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\api\\chat\\rooms\\route.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780021266176,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\api\\chat\\rooms\\[roomId]\\route.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780021294996,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\api\\chat\\rooms\\[roomId]\\messages\\route.ts",
+      "accessCount": 1,
+      "lastAccessed": 1780021298386,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
