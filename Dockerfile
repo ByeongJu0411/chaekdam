@@ -13,6 +13,9 @@ COPY . .
 # Next.js 빌드
 RUN npm run build
 
+# server.ts + src/**/*.ts → dist/ 로 컴파일 (CommonJS)
+RUN npx tsc -p tsconfig.server.json
+
 # 2단계: 실행 환경 (runner)
 FROM node:20-alpine AS runner
 
@@ -20,17 +23,16 @@ WORKDIR /app
 
 ENV NODE_ENV=production
 
-# builder에서 필요한 파일만 복사
+# 프로덕션 의존성만 설치 (tsx 불필요)
 COPY --from=builder /app/package*.json ./
-COPY --from=builder /app/node_modules ./node_modules
+RUN npm ci --omit=dev
+
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/public ./public
-COPY --from=builder /app/server.ts ./server.ts
-COPY --from=builder /app/tsconfig.json ./tsconfig.json
-COPY --from=builder /app/src ./src
+COPY --from=builder /app/dist ./dist
 
 # Render는 환경변수 PORT를 자동 주입
 EXPOSE 3000
 
-# 커스텀 서버 실행 (tsx로 TypeScript 직접 실행)
-CMD ["npx", "tsx", "server.ts"]
+# 컴파일된 JS를 node로 직접 실행
+CMD ["node", "dist/server.js"]
